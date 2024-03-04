@@ -26,7 +26,5 @@ jobs:
         with:
           bin: vtracer
           target: ${{ matrix.target }}
-          tar: none
-          zip: none
           # (required) GitHub token for uploading assets to GitHub Releases.
           token: ${{ secrets.GITHUB_TOKEN }}
